@@ -1,0 +1,34 @@
+{
+	"name": "apkmirror.js",
+	"version": "0.0.1-alpha.1",
+	"repository": "git@github.com:ShaunLWM/APKMirror.js.git",
+	"author": "ShaunLWM",
+	"license": "MIT",
+	"main": "dist/index.js",
+	"types": "src/typings/index.d.ts",
+	"prepublish": "tsc",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsc",
+		"build:check": "tsc --noEmit",
+		"prepublish": "tsc",
+		"test": "jest",
+		"test:watch": "jest --watch",
+		"test:watchall": "jest --watchAll"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.1"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.20",
+		"@types/node-fetch": "^2.5.8",
+		"jest": "^26.6.3",
+		"ts-jest": "^26.5.3",
+		"typescript": "^4.2.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
