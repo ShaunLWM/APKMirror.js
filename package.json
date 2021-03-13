@@ -1,11 +1,11 @@
 {
 	"name": "apkmirror.js",
-	"version": "0.0.1-alpha.3",
+	"version": "0.0.1-alpha.4",
 	"repository": "git@github.com:ShaunLWM/APKMirror.js.git",
 	"author": "ShaunLWM",
 	"license": "MIT",
 	"main": "dist/index.js",
-	"types": "dist/index.d.ts",
+	"types": "src/typings/index.d.ts",
 	"prepublish": "tsc",
 	"files": [
 		"dist"

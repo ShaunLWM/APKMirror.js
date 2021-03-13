@@ -1,20 +1,20 @@
-interface BodyForm {
+export interface BodyForm {
 	pnames: string[];
 	exclude?: ["alpha", "beta"];
 }
 
-interface Developer {
+export interface Developer {
 	name: string;
 	link: string;
 }
 
-interface App {
+export interface App {
 	name: string;
 	description: string;
 	link: string;
 }
 
-interface Release {
+export interface Release {
 	version: string;
 	publish_date: string;
 	whats_new: string;
@@ -22,7 +22,7 @@ interface Release {
 	link: string;
 }
 
-interface Apk {
+export interface Apk {
 	version_code: string;
 	link: string;
 	publish_date: string;
@@ -36,7 +36,7 @@ interface Apk {
 	capabilities: string[];
 }
 
-interface ApkData {
+export interface ApkData {
 	pname: string;
 	exists: boolean;
 	developer: Developer;
@@ -45,7 +45,7 @@ interface ApkData {
 	apks: Apk[];
 }
 
-interface RootObject {
+export interface RootObject {
 	data: ApkData[];
 	status: number;
 }

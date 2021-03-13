@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import { ApkData, BodyForm, RootObject } from "./typings";
 
 export const getPackages = async (packages: string[], excludeExperimental = true): Promise<ApkData[]> => {
 	try {
