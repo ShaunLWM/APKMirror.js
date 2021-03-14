@@ -6,8 +6,6 @@
 		"esModuleInterop": true,
 		"resolveJsonModule": true,
 		"lib": ["es6"],
-		"declaration": true,
-		"declarationMap": true,
 		"outDir": "dist",
 		"rootDir": "src",
 		"strict": true
