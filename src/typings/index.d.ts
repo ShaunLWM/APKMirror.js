@@ -49,4 +49,5 @@ export interface RootObject {
 	data: ApkData[];
 	status: number;
 }
+
 export declare function getPackages(packages: string[], excludeExperimental?: boolean): Promise<ApkData[]>;
